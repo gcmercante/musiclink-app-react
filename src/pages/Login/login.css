@@ -1,0 +1,115 @@
+.logoDiv {
+    width: 50%;
+    background-color: #808080;
+    height: 100vh;
+}
+
+.logo {
+    width: 100%;
+}
+
+.imgDiv {
+    width: 100%;
+    margin: auto;
+}
+
+.signinDiv {
+    width: 50%;
+}
+
+.containerLogin {
+    display: flex;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    padding: 3%;
+}
+
+#password, #email {
+    width: 40%;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.logInButton {
+    width: 17%;
+    background-color: rgb(245, 245, 245);
+    border: 2px solid #808080;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #808080;
+    font-weight: bold;
+}
+
+.logInButton:hover {
+    color: rgb(245, 245, 245);
+    background-color: #808080;
+    cursor: pointer;
+}
+
+.signUpButton {
+    width: 100%;
+    background-color: #808080;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    font-size: 18px;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    height: 35px;
+    padding: 5px;
+}
+
+.signUpButton:hover {
+    color: #808080;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+.signUpContainer {
+    width: 60%;
+    margin: 20% auto;
+    align-items: center;
+}
+
+.singUpBtnDiv {
+    width: 80%;
+    margin: auto;
+}
+
+.slogan {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #808080;
+}
+
+.subslogan {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #808080;
+}
+
+.logoSlogan {
+    width: 30%;
+}
+
+.wrongPassword {
+    color: red;
+    font-size: 12px;
+    margin: auto;
+    width: 90%;
+    display: none;
+}
+
+#containerForm {
+    width: 70%;
+    margin: auto;
+}

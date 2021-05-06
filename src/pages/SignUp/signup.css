@@ -1,0 +1,109 @@
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.signUpBox {
+    width: 30%;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(214, 214, 214);
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.emailDiv {
+    width: 100%;
+}
+
+#nameSignUp, #roleSignUp, #emailSignUp, #passwordSignUp, #locationSignUp, #phoneSignUp {
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    height: 35px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.passwordDiv, .phoneDiv, .nameDiv, .roleDiv {
+    width: 50%;
+}
+
+.optionDiv {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 7px;
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.options {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.typeDiv {
+    width: 100%;
+    font-size: 16px;
+    color: #808080;
+}
+
+.btnDiv {
+    width: 60%;
+    margin: auto;
+}
+
+.signUpBtn {
+    width: 100%;
+    padding: 7px;
+    border: 2px solid #808080;
+    color: #fff;
+    background-color: #808080;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.signUpDiv {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.signUpBtn:hover {
+    color: #808080;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.imgContainer {
+    width: 7%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.logoImg {
+    width: 100%;
+}
+
+.type {
+    margin-top: 3px;
+}
+
+#emailExists {
+    color: red;
+    font-size: 12px;
+    width: 90%;
+    margin-top: 3px;
+    display: none;
+}
